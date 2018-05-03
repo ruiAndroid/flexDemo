@@ -1,16 +1,40 @@
 <!--index.wxml-->
-<view class="container">
   <view class="indexMenu">
-    <scroll-view class="indexMenuTop" scroll-x="true" scroll-y="false">
-       <view bindtap="toNew" class="top-btn {{new}}">上新</view>
-       <view bindtap="toNew" class="top-btn {{good}}">好货</view>
-       <view bindtap="toChild" class="top-btn {{child}}">童装</view>
-       <view bindtap="toMom" class="top-btn {{mom}}">母婴</view>
-       <view bindtap="toGirl" class="top-btn {{girl}}">女装</view>
-       <view bindtap="toFood" class="top-btn {{food}}">食品</view>
-       <view bindtap="toBeauti" class="top-btn {{beauti}}">丽人</view>
-       <view bindtap="toHome" class="top-btn {{home}}">居家</view>
+    <scroll-view class="indexMenuTop" scroll-x="true" scroll-y="false" >
+       <view catchtap="toNew" class="top-btn {{new}}">上新</view>
+       <view catchtap="toGood" class="top-btn {{good}}">好货</view>
+       <view catchtap="toChild" class="top-btn {{child}}">童装</view>
+       <view catchtap="toMom" class="top-btn {{mom}}">母婴</view>
+       <view catchtap="toGirl" class="top-btn {{girl}}">女装</view>
+       <view catchtap="toFood" class="top-btn {{food}}">食品</view>
+       <view catchtap="toBeauti" class="top-btn {{beauti}}">丽人</view>
+       <view catchtap="toHome" class="top-btn {{home}}">居家</view>
     </scroll-view>
   </view>
+ <view class="indexContent" >
  
-</view>
+    <view class="first">
+      <image class="firstImg" src="http://b2.hucdn.com//upload/hmp/1609/29/79597670154837_750x300.jpg" mode="scaleToFill"></image>
+    </view>
+    <view class="secondContent">
+     <view class="second">
+      <view class="secondDiv">
+      <image class="secondImg1" src="http://b2.hucdn.com//upload/hmp/1609/14/23080112334484_120x80.png!100q50.webp" mode="scaleToFill"></image>
+      </view>
+      <view class="secondDiv">
+      <image class="secondImg1" src="http://b2.hucdn.com//upload/hmp/1608/30/26071831380311_120x80.png!100q50.webp" mode="scaleToFill"></image>
+      </view>
+      <view class="secondDiv">
+      <image class="secondImg1" src="http://b2.hucdn.com//upload/hmp/1609/20/74848780300311_120x80.png!100q50.webp" mode="scaleToFill"></image>
+      </view>
+      <view class="secondDiv">
+      <image class="secondImg1" src="http://b2.hucdn.com//upload/hmp/1608/30/26177615590311_120x80.png!100q50.webp" mode="scaleToFill"></image>
+      </view>
+    </view>
+    </view>
+
+    
+  <view class="third"></view>
+   
+ </view>
+
