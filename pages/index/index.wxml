@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="indexMenu">
+    <scroll-view class="indexMenuTop" scroll-x="true" scroll-y="false">
+       <view bindtap="toNew" class="top-btn {{new}}">上新</view>
+       <view bindtap="toNew" class="top-btn {{good}}">好货</view>
+       <view bindtap="toChild" class="top-btn {{child}}">童装</view>
+       <view bindtap="toMom" class="top-btn {{mom}}">母婴</view>
+       <view bindtap="toGirl" class="top-btn {{girl}}">女装</view>
+       <view bindtap="toFood" class="top-btn {{food}}">食品</view>
+       <view bindtap="toBeauti" class="top-btn {{beauti}}">丽人</view>
+       <view bindtap="toHome" class="top-btn {{home}}">居家</view>
+    </scroll-view>
+  </view>
+ 
+</view>

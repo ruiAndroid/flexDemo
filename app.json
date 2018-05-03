@@ -1,0 +1,27 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/bb/bb"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "flexDemo",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/store.png",
+      "selectedIconPath": "images/store-selected.png",
+      "selectedColor": "#0094ff"
+    },{
+      "pagePath":"pages/bb/bb",
+      "text":"宝贝",
+      "iconPath":"images/store.png",
+      "selectedIconPath":"images/store-selected.png",
+      "selectedColor": "#0094ff"
+    }]
+  }
+}
