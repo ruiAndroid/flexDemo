@@ -1,2 +1,56 @@
-<!--pages/bb/bb.wxml-->
-<text>pages/bb/bb.wxml</text>
+<view class="container">
+  <text class="label">TOP 5</text>
+  <view class="topFiveContent">
+    <view class="leftContent">
+      <view class="verLine1">
+
+      </view>
+    </view>
+    <view class="rightContent">
+      <canvas canvas-id="pieCanvas" class="canvas"  bindtouchstart="touchHandler"></canvas>
+    </view>
+  </view>
+
+  <text class="label">趋势</text>
+  <view class="trend">
+
+    <view class="leftContent">
+      <view class="verLine2">
+
+      </view>
+    </view>
+
+    <view class="trendRightContent">
+      <view>
+        <text class="sourceLabel">有书课堂</text>
+        <text class="percentLabel">+20%</text>
+      </view>
+        <text class="sourceLabel">有书课堂</text>
+        <text class="percentLabel">+20%</text>
+      <view>
+
+      </view>
+    </view>
+  </view>
+
+  <text class="label">全部</text>
+  <view class="all">
+    <view class="leftContent">
+      <view class="verLine3">
+
+      </view>
+    </view>
+
+    <view class="allRightContent">
+      <view>
+        <text class="sourceLabel">有书课堂</text>
+        <text class="percentLabel">+20%</text>
+      </view>
+
+      <view>
+        <text class="sourceLabel">有书课堂</text>
+        <text class="percentLabel">+20%</text>
+      </view>
+    </view>
+  </view>
+</view>

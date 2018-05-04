@@ -7,8 +7,7 @@
   
   width: 100%;
   height: 50px;
-  background-color: #0094ff;
-  
+  background-color: #fff;  
   border-bottom:#eee solid 1px;
 }
 /*隐藏滚动条*/
@@ -36,7 +35,7 @@
 }
 .indexContent{
   width: 100%;
-  background-color: yellow;
+  
   
 }
 
@@ -80,8 +79,60 @@
   width:100%;
   height: 170rpx;
 }
+
 .third{
   width: 100%;
-  height: 40rpx;
-  background-color: #0094ff;
+  height: 150rpx;
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.thirdLeftContent{
+  width: 25%;
+  height: 150rpx;
+
+}
+
+.thirdRightContent{
+  width: 75%;
+  height: 150rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; 
+}
+
+.thirdRightContentTxt{
+  font-size: 14px;
+  margin-left: 30rpx;
+}
+
+.forth{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  margin-top: 20rpx;
+}
+.todayHot{
+  font-size: 18px;
+  width: 100%;
+  height: 50rpx;
+  text-align: center;
+  
+}
+
+.fifth{
+  display: flex;
+  margin: 5rpx;
+  border: #ddd solid 1px;
+  padding: 5rpx;
+
+}
+
+.fifthImg{
+   width: 750rpx;
+
 }
